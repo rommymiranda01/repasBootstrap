@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenidor{
+    height: 200px;
+    width: 400px;
+    background-color: blueviolet;
+    margin: 50px;
+    position: relative;
+}
+
+.contenidor > div{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+}
+
+.blau{
+    background-color: blue;
+    top: 50px;
+    left: 50px;
+    z-index: 2;
+}
+
+.verd{
+    background-color: green;
+    top: 50px;
+    left: 50px;
+    z-index: 3;
+}
+
+.taronja{
+    background-color: orangered;
+    left: 100px;
+    top: 100px;
+}
+
+.groc{
+    background-color: yellow;
+    top: 100px;
+    left: 200px;
+}
+
+.negre{
+    background-color: black;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 10px;
+    left: 15px;
+}
+
+.song{
+    position: relative;
+}
+
+video{
+    /*position: absolute;*/
+    width: 800px;
+    height: 450px;
+    /*top: 0;*/
+    /*left: 0;*/
+}
+
+.controls{
+    position: absolute;
+    bottom: 30px;
+}
+
+.controls i{
+    color: white;
+    font-size: 2em;
+}
