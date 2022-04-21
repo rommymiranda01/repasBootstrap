@@ -54,6 +54,7 @@
 
 .song{
     position: relative;
+    background-color: red;
 }
 
 video{
